@@ -1,7 +1,13 @@
 v0.1.0:
-    date:2023-09-21
+    date:2024-09-21
     changes:
       - 初始化版本
         1、单选 RadioGroup、Radio
         2、多选 CheckGroup、Check
         3、开关 Switch
+v0.2.0:
+    date:2025-06-01
+    changes:
+      - 新增功能
+        1、弹出层 Popup
+        2、输入框 Input

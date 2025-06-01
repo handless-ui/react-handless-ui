@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
 import { CheckContext } from "../Context";
-import { throttle } from "oipage/corejs/throttle/index";
+import { throttle } from "oipage/web/throttle/index";
 
 export default function UiCheck(props) {
     let slots = React.Children.toArray(props.children);

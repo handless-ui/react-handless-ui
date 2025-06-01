@@ -2,6 +2,10 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+    server: {
+        port: 20000,
+        host: "0.0.0.0"
+    },
     plugins: [
         react({ // React插件
             jsxRuntime: "classic"

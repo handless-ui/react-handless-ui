@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { throttle } from "oipage/corejs/throttle/index";
+import { throttle } from "oipage/web/throttle/index";
 
 export default function UiSwitch(props) {
     let slots = React.Children.toArray(props.children);

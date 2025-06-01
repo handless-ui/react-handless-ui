@@ -1,10 +1,10 @@
 {
   "name": "react-handless-ui",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "一个基于 React，面向开发者开发的无头组件库",
   "typings": "./types/index.d.ts",
-  "main": "dist/react-handless-ui.umd.cjs",
-  "module": "dist/react-handless-ui.js",
+  "main": "./dist/react-handless-ui.umd.cjs",
+  "module": "./dist/react-handless-ui.js",
   "unpkg": "./dist/react-handless-ui.iife.js",
   "jsdelivr": "./dist/react-handless-ui.iife.js",
   "sideEffects": false,
@@ -39,6 +39,6 @@
     "vite": "^5.3.5"
   },
   "dependencies": {
-    "oipage": "^0.1.0"
+    "oipage": "^1.0.0"
   }
 }
